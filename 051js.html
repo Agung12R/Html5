@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Time right now is: </title>
+    <link rel = "shortcut icon" href = "images/k.png" type = "image/x-icon">
+</head>
+<body>
+    <script>
+        <!--Scrip waktu-->
+        let d = new Date();
+        document.body.innerHTML = 
+        "<h1>Time right now is:  " + 
+            d + "-" + 
+            d.getHours() + ":" + 
+            d.getMinutes() + ":" + 
+            d.getSeconds()
+        "</h1>"
+    </script>
+    <script src="/js/051js.js"></script>
+</body>
+</html>
